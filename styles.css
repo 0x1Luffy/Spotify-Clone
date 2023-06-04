@@ -53,11 +53,57 @@
     z-index: 2;
 }
 
-.songList {
+
+.container{
+    position: relative;
+    z-index: 6;
     display: flex;
-    margin-left: 270px;
-    margin-top: 60px;
+}
+
+.songContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.songList {
+    background-color: aliceblue;
+    display: flex;
+    margin-left: -1440px;
+    margin-top: 132px;
+    margin-bottom: -2rem;
+    height: 60px;
+    width: 475px;
+    z-index: 9;
+    border-radius: 3rem;
+}
+
+.songLogo {
+
     border: 1px solid red;
-    height: 20px;
-    width: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50px;
+    border-radius: 9rem;
+}
+
+.songName {
+
+    border: 1px solid red;
+    width: 20px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.songDuration {
+
+    border: 1px solid red;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 60px;
 }
