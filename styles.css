@@ -107,3 +107,25 @@
     height: 40px;
     width: 60px;
 }
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 2rem;
+    height: 135px;
+}
+
+.slider {
+    width: 80vw;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+#sliderSong{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
